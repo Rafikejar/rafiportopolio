@@ -1,0 +1,91 @@
+body{
+  background-color: orange;  
+}
+.name{
+  background-color: cornflowerblue;
+padding: 40px 40px 40px 40px;
+margin: 50px 50px 50px 40px;
+border: 9px ridge lime;
+}
+.nama{
+  background-color: cornflowerblue;
+padding: 50px 50px 50px 50px;
+border: 9px ridge lime;
+}
+.nami{
+  background-color: cornflowerblue;
+  border: 9px ridge lime;
+}
+.namo{
+  background-color: cornflowerblue;
+  border: 9px ridge lime;
+  padding: 50px 50px 50px 50px;
+}
+div .i{
+  background-color: red;
+  width: 100px;
+}
+.namu{
+  background-color: cornflowerblue;
+  border: 9px ridge lime;
+  padding: 50px 50px 50px 50px;
+}
+div .k{
+  background-color: red;
+  width: 100px;
+}
+.nima{
+  background-color: cornflowerblue;
+  border: 9px ridge lime;
+  padding: 50px 50px 50px 50px;
+}
+div .r{
+  background-color: red;
+  width: 100px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+* {
+    font-family: 'Bonheur Royale', cursive;
+}
+
+.name {
+    background-color: aqua;
+    /* max-width: 50%;
+    width: 75%;
+    max-height: 200px;
+    height: 300px; */
+    /* min-width: 75%;
+    width: 50%;
+    min-height: 300px;
+    height: 200px; */
+    /* Typography */
+    font-size: 100px;
+    font-weight: 700;
+
+}
+:root{
+  --warnaindigo: indigo;
+  --warnahijau: green;
+  --warnaaqua: aqua;
+  --lebarkotak: 200px;
+  --tinggikotak: 200px;
+}
+.namu{
+  width: var(--lebarkotak);
+  height: var(--tinggikotak);
+  margin: 10px;
+  background-color: var(--warnaaqua);
+}
+.nima{
+  width: var(--lebarkotak);
+  height: var(--tinggikotak);
+  margin: 10px;
+  background-color: var(--warnaindigo);
+}
+.namo{
+  width: var(--lebarkotak);
+  height: var(--tinggikotak);
+  margin: 10px;
+  background-color: var(--warnahijau);
+}
